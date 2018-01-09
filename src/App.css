@@ -1,0 +1,100 @@
+button {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+}
+
+.App {
+  text-align: center;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 600px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.slot {
+  border-radius: 50%;
+  border: 1px solid black;
+  height: 80px;
+  width: 80px;
+  margin: 40px;
+}
+
+.infoButton {  
+  position: absolute;
+  right: 250px;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(37, 37, 235);
+  color: rgb(235, 235, 235);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.addButton {  
+  position: absolute;
+  right: 250px;
+  top: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(37, 235, 186);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  font-size: 2em;
+}
+
+.instrumentOptions {
+  position: absolute;
+  right: 350px;
+  top: 100px;
+  border: 1px black solid;
+  background: rgb(185, 185, 185);
+  height: 300px;
+  width: 300px;
+}
+
+.instrumentTypeSelect {
+  border: 1px black solid;
+  background: rgb(86, 156, 235);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+.draggableInstrument {
+  position: absolute;
+  left: 20%;
+  border-radius: 50%;
+  border: 2px solid black;
+  height: 80px;
+  width: 80px;
+  margin: 40px;
+  background: rgb(43, 221, 111);
+}
+
+.draggableInstrumentInstruction {
+  font-size: 0.5em;
+}
+
+.closeButton {
+  border-radius: 50%;
+  border: 1px solid black;
+  height: 20px;
+  width: 20px;
+  background: rgb(163, 2, 2);
+  text-align: center;
+}
